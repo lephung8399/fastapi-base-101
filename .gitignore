@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.DS_Store
+
+# Local development settings
+.env
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs and test results
+logs/*
+test-results/
+
+# Dependency directories
+venv/
+.venv/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Cache directories
+.cache/
+pytest_cache/
+
+# Database files
+*.db
+
+# Miscellaneous files
+*.swp
+*~.nfs*
+
+# Python version
+.python-version
+
+# ENV for develop
+.env.develop
+
+# Coverage database
+.coverage
