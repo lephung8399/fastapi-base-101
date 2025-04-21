@@ -1,5 +1,5 @@
 from sqlalchemy import Column, Integer, String, Boolean
-
+from sqlalchemy.orm import relationship
 from app.models.model import ModelBase
 
 
@@ -11,3 +11,5 @@ class User(ModelBase):
     full_name = Column(String(255))
     activate = Column(Boolean, default=True)
     role = Column(Integer, nullable=False)
+
+    posts = relationship("Post", back_populates="user")
