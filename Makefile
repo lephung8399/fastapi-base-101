@@ -19,7 +19,7 @@ build:
 .PHONY: up
 start:
 	@echo "$(GREEN)Starting containers...$(NC)"
-	$(DOCKER_COMPOSE) -f $(DOCKER_COMPOSE_FILE) up -d
+	$(DOCKER_COMPOSE) -f $(DOCKER_COMPOSE_FILE) up
 
 .PHONY: down
 stop:
